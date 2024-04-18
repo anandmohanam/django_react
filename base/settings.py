@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'mysite',
-# Add above line just before this line 👇
+# Add above line just before this line 
     'corsheaders',
 ]
 
@@ -51,12 +51,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-# Add above line just before this line 👇
+# Add above line just before this line 
     'corsheaders.middleware.CorsMiddleware',
-    # Add above line just before this line 👇
+    # Add above line just before this line 
     'django.middleware.common.CommonMiddleware',
 ]
-# Add above line just before this line 👇
+# Add above line just before this line 
 CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'base.urls'
