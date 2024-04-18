@@ -5,6 +5,7 @@ using api:
       -POST
 
 Installation process:
+   -pip install -r rerequirements.txt
    - py manage.py createsuperuser
    - follow steps:username email password
 
