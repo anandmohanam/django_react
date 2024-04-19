@@ -1,4 +1,16 @@
 It is a sample project using Django REST framework and react.js
+folder structure
+
+│   db.sqlite3
+│   manage.py
+│   run.bat
+│
+├───api
+├───base
+├───env
+├───myapp
+└───mysite
+
 using api:
       -GET
       -DELETE
