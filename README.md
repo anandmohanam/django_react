@@ -1,7 +1,7 @@
-It is a sample project using Django REST framework and react.js
+# Django REST Framework and React.js Sample Project
 
-Folder Structure
-
+## Folder Structure
+```
 ├── db.sqlite3
 ├── manage.py
 ├── run.bat
@@ -10,21 +10,43 @@ Folder Structure
 ├── env
 ├── myapp
 └── mysite
+```
 
-using api:
-      -GET
-      -DELETE
-      -POST
+## API Features
+- **GET**: Retrieve data from the server.
+- **DELETE**: Remove data from the server.
+- **POST**: Send data to the server.
 
-Installation process:
-   -pip install -r requirements.txt
-   - py manage.py createsuperuser
-   - follow steps:username email password
+## Installation Process
+1. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Create a superuser:
+   ```bash
+   python manage.py createsuperuser
+   ```
+   Follow the prompts to set up the username, email, and password.
 
+## Running the Project
+### Option 1: Using `run.bat`
+- Simply double-click on the `run.bat` file to start the project.
 
-To run this project:
-   - Directly click on run.bat
-             OR
-   - Or navigate to project directory using      "cd </path>"    Command
-   - Enter the command :   python manage.py runserver
-   - Navigate to " myapp    < cd myapp > " directory Enter the command  " npm start "  used to run react.js app
+### Option 2: Using Command Line
+1. Navigate to the project directory:
+   ```bash
+   cd </path>
+   ```
+2. Start the Django server:
+   ```bash
+   python manage.py runserver
+   ```
+3. Navigate to the `myapp` directory:
+   ```bash
+   cd myapp
+   ```
+4. Start the React.js app:
+   ```bash
+   npm start
+   ```
+
